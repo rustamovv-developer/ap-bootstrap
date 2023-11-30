@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --white: #fff;
+  --black: #000;
+  --primary-color: #1c1e53;
+  --secondary-color: #fcd980;
+  --text-color: #282938;
+}
+a {
+  text-decoration: none;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.center__min {
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+.center__title {
+  max-width: 949px;
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 16px;
+}
+.center__text {
+  max-width: 831px;
+  color: var(--Dark-blue, #282938);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.center__link {
+  color: var(--Royal-Blue, #2405f2);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.col-12 {
+  margin-bottom: 48px;
+  width: 100%;
+}
+.header {
+  padding: 128px 0px;
+}
+.main{
+  padding-bottom: 128px;
+}
+.col-4 {
+  max-width: 405px;
+}
+.main__img {
+  width: 100%;
+  margin-bottom: 32px;
+}
+.main__min {
+  margin-bottom: 16px;
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.main__title {
+  max-width: 404px;
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.main__text {
+  max-width: 404px;
+  color: var(--Dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.main__link {
+  color: var(--Tint-blue, #1c1e53);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px; 
+}
+@media(max-width: 540px){
+  .main__info{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px !important;
+  }
+  .col-4{
+    padding: 0px !important;
+  }
+}
