@@ -10,7 +10,7 @@
     />
     <link rel="icon" href="../asset/images/bootstrap.webp" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href="../css/contact.min.css" />
   </head>
   <body>
     <div id="backtop" class="backtop-show">
@@ -176,7 +176,7 @@
                   <a class="nav-link navbar__link" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navbar__link navbar__active" href="#"
+                  <a class="nav-link navbar__link" href="./about.html"
                     >About us</a
                   >
                 </li>
@@ -192,164 +192,96 @@
                   <a class="nav-link navbar__link" href="./blog.html">Blog</a>
                 </li>
               </ul>
-              <a href="./contact.html" class="navbar__btn">Contact us</a>
+              <a href="#" class="navbar__btn navbar__active">Contact us</a>
             </div>
           </div>
         </div>
       </nav>
-      <div class="container">
-        <div class="header__info">
-          <div class="header__left">
-            <h3 class="header__min">About us</h3>
-            <h2 class="header__title">Our designs solve problems</h2>
-            <p class="header__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
-            </p>
-          </div>
-          <img
-            src="../asset/images/about-header.png"
-            alt="about-header"
-            class="header__img"
-          />
-        </div>
+      <div class="center">
+        <h2 class="center__title">Contact Us</h2>
+        <p class="center__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore.
+        </p>
       </div>
     </header>
     <!-- header end -->
 
     <!-- main start -->
     <main class="main">
-      <div class="container">
-        <div class="main__top">
-          <div class="cols d-xl-flex justify-content-center gap-5 p-5">
-            <div class="col-6">
-              <h2 class="col__title">Goal focussed</h2>
-              <p class="col__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-            <div class="col-6">
-              <h2 class="col__title">Continuous improvement</h2>
-              <p class="col__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-          <img
-            src="../asset/images/about-main-img.png"
-            alt="about-main"
-            class="col-12"
-          />
-        </div>
-      </div>
-      <div class="main__bottom">
-        <div class="center">
-          <h2 class="center__title">Meet our team</h2>
-        </div>
+      <section class="in">
         <div class="container">
-          <div class="bottom__cols">
-            <div
-              class="col-3 col__3 align-items-center justify-content-center text-center gap-3"
-            >
-              <div class="about__ellipse">
-                <img
-                  src="../asset/images/about-hover.png"
-                  alt="hover"
-                  class="about__hover"
+          <div class="in__info">
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-6">
+                <label for="Name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Name"
+                  placeholder="Enter your name"
+                  required
                 />
-                <div class="about__icons">
-                  <i class="fa-brands fa-facebook elipse__icon"></i>
-                  <i class="fa-brands fa-twitter elipse__icon"></i>
-                  <i class="fa-brands fa-linkedin elipse__icon"></i>
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please fill!</div>
+              </div>
+              <div class="col-md-6">
+                <label for="Email" class="form-label">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Email"
+                  placeholder="Enter your Emial"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+                <div class="invalid-feedback">Please fill!</div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustomUsername" class="form-label"
+                  >Subject</label
+                >
+                <div class="input-group has-validation">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationCustomUsername"
+                    placeholder="Provide context"
+                    required
+                  />
+                  <div class="valid-feedback">Looks good!</div>
+                  <div class="invalid-feedback">Please choose a username.</div>
                 </div>
               </div>
-              <img
-                src="../asset/images/about-team1.png"
-                alt="1"
-                class="col__img"
-              />
-              <h2 class="bottom__title">John Smith</h2>
-              <p class="bottom__text">CEO</p>
-            </div>
-            <div
-              class="col-3 col__3 align-items-center justify-content-center text-center gap-3"
-            >
-              <div class="about__ellipse">
-                <img
-                  src="../asset/images/about-hover.png"
-                  alt="hover"
-                  class="about__hover"
+              <div class="col-md-6">
+                <label for="validationCustom03" class="form-label"
+                  >Subject</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom03"
+                  placeholder="Select Subject"
+                  required
                 />
-                <div class="about__icons">
-                  <i class="fa-brands fa-facebook elipse__icon"></i>
-                  <i class="fa-brands fa-twitter elipse__icon"></i>
-                  <i class="fa-brands fa-linkedin elipse__icon"></i>
-                </div>
+                <div class="invalid-feedback">Please provide a valid city.</div>
+                <div class="valid-feedback">Looks good!</div>
               </div>
-              <img
-                src="../asset/images/about-team2.png"
-                alt="1"
-                class="col__img"
-              />
-              <h2 class="bottom__title">Simon Adams</h2>
-              <p class="bottom__text">CEO</p>
-            </div>
-            <div
-              class="col-3 col__3 align-items-center justify-content-center text-center gap-3"
-            >
-              <div class="about__ellipse">
-                <img
-                  src="../asset/images/about-hover.png"
-                  alt="hover"
-                  class="about__hover"
-                />
-                <div class="about__icons">
-                  <i class="fa-brands fa-facebook elipse__icon"></i>
-                  <i class="fa-brands fa-twitter elipse__icon"></i>
-                  <i class="fa-brands fa-linkedin elipse__icon"></i>
-                </div>
+              <div class="col-12 col__12">
+                <label for="textare" class="form-label">Message</label>
+                <textarea
+                  placeholder="Write your  question here"
+                  class="textarea"
+                  id="textare"
+                ></textarea>
               </div>
-              <img
-                src="../asset/images/about-team3.png"
-                alt="1"
-                class="col__img"
-              />
-              <h2 class="bottom__title">Paul Jones</h2>
-              <p class="bottom__text">CEO</p>
-            </div>
-            <div
-              class="col-3 col__3 align-items-center justify-content-center text-center gap-3"
-            >
-              <div class="about__ellipse">
-                <img
-                  src="../asset/images/about-hover.png"
-                  alt="hover"
-                  class="about__hover"
-                />
-                <div class="about__icons">
-                  <i class="fa-brands fa-facebook elipse__icon"></i>
-                  <i class="fa-brands fa-twitter elipse__icon"></i>
-                  <i class="fa-brands fa-linkedin elipse__icon"></i>
-                </div>
+              <div class="col-12">
+                <button class="btn" type="submit">Submit form</button>
               </div>
-              <img
-                src="../asset/images/about-team4.png"
-                alt="1"
-                class="col__img"
-              />
-              <h2 class="bottom__title">Sara Hardin</h2>
-              <p class="bottom__text">CEO</p>
-            </div>
+            </form>
           </div>
         </div>
-      </div>
+      </section>
     </main>
     <!-- main end -->
 
